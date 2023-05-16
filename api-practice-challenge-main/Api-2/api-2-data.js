@@ -74,6 +74,22 @@ carDetails.innerHTML = `
 
 
 
+<div class="col-sm-6 mb-3 mb-sm-0">
+<div class="card">
+  <div class="card-body">
+  <img class="figure-img img-fluid rounded" src="${data[1].imageURL}" alt="">
+    <h5 class="card-title">Car Name: ${data[1].name}</h5>
+    <p class="card-text"> Car Details:${data[1].description} </p>
+    <a href="#" class="btn btn-primary">Car Price: ${data[1].price}</a>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
 
 
 
