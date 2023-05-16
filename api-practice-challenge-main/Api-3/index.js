@@ -42,10 +42,11 @@ class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-8
 
 
 
-
-
-
-
+const fetchCountryRegion = (region) => {
+  fetch(`https://restcountries.com/v3.1/region/${region}`)
+    .then((res) => res.json())
+    .then((data) => showRegionCountry(data));
+};
 
 
 
